@@ -39,7 +39,7 @@
 }
 
 .feature-circle {
-    background-color: #32CD32;
+    background-color: #67cf91;
     height:80px;
     width:80px;
     border-radius: 50%;
@@ -70,6 +70,7 @@
 }
 
 #updates-row {
+    padding-top:40px;
     background-color: #E1E2E7;
     height: 400px;
 }
@@ -95,3 +96,91 @@ form .btn {
     top:0px;
     left:40%;
 }
+
+#testimonials-row {
+    padding-top:40px;
+    height: 400px;
+}
+
+.testimonial-text {
+    font-style: italic;
+    font-size: 24px;
+}
+
+.user-name {
+    padding-top: 20px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+#testimonial-pictures img {
+    width: 55px;
+    display: inline-block;
+}
+#say-hi {
+    padding-top: 40px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#social-row {
+    margin-top: 20px;
+}
+
+.social-circle {
+    display: inline-block;
+    background-color: rgba(0,0,0,0.6);;
+    height:28px;
+    width:28px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.social-circle:hover {
+    background-color: #67cf91;
+}
+.social-circle img {
+    position: absolute;
+    display: block;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer {
+    padding-top:40px;
+    background-color: #E1E2E7;
+    height: 200px;
+}
+
+@media (max-width: 767px) {
+    #banner{ 
+        background-size: auto; 
+        background-position-x: 650px;
+    }
+   #video {
+       display: none;
+   }
+   #testimonial-pictures img {
+       display: none;
+    }
+    .user-name {
+       display: none;
+    }
+    #banner-icons {
+       display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    #banner{ 
+        background-size: auto; 
+        background-position-x: 1000px;
+    }
+    #video {
+        display: none;
+    }
+ }
