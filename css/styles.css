@@ -66,4 +66,32 @@
 }
 .feature-text {
     text-align: center;
+    margin-bottom: 80px;
+}
+
+#updates-row {
+    background-color: #E1E2E7;
+    height: 400px;
+}
+
+#notified-updates {
+    font-size: 24px;
+    font-weight: thick;
+    margin-bottom: 20px;
+}
+
+.form-field {
+    margin-top:20px;
+}
+
+
+form {
+    position: relative;
+    margin-top: 20px;
+}
+
+form .btn {
+    position: absolute;
+    top:0px;
+    left:40%;
 }
