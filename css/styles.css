@@ -184,3 +184,6 @@ form .btn {
         display: none;
     }
  }
+ body{
+     overflow-x: hidden;
+ }
